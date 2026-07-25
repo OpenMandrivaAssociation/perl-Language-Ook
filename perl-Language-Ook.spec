@@ -2,14 +2,14 @@
 %define upstream_version 1.0.2
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Version:	%{upstream_version}
+Release:	7
 
 Summary:	An Ook! interpreter
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Language/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Language-Ook
+Source0:	https://cpan.metacpan.org/authors/id/J/JQ/JQUELIN/Language-Ook-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
